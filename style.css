@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+div h2{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+ 
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color:rgb(234,180,193);
+    position: relative;    
+}
+
+.field-name{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.field-email {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.field-password {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.field-checkbox{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow bold',sans-serif;
+    color: white;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 400px;
+    padding: 5%;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  
+}
+
+button{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow bold', sans-serif;
+    font-size: 20px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.field-name i {
+    padding: 10px;
+    cursor: pointer;
+}
+.field-email i {
+    padding: 10px;
+    cursor: pointer;
+}
+.field-password i{
+    padding: 10px;
+    cursor: pointer;
+}
+.field-finish i {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.field-name input{
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+
+}
+.field-email input {
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+
+}
+.field-password input {
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+
+}
+
+
+   
+
